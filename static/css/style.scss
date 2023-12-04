@@ -2,11 +2,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
  body,html{
     height: 100%;
-    overflow: auto; /* コンテンツが画面外にはみ出ないようにする */
+    min-height: 100vh;
+    // overflow: auto; /* コンテンツが画面外にはみ出ないようにする */
  }     
 // // }
 header{
@@ -214,8 +216,12 @@ main{
     text-decoration: underline;
    }
    .footer .wrap {
-    width: 100%;
-    margin: 0 auto;
+    // width: 100%;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 50px;
+    // margin-top: 50px;
+    // margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
