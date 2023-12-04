@@ -195,109 +195,72 @@ nav li{
 #manaka{
     display: flex;
 }
-// footer{
-//     background-color: #858a8e;
-//     display: flex;
-//     justify-content: space-around;
-//     flex-wrap: wrap;
-//     // display: flex;
-//     // justify-content: space-between;
-//     // margin-top: 13rem;
-//     // padding-left: 8rem;
-//     padding-right: 8rem;
-//     padding-top: 20px;
-//     padding-bottom: 12px;
-//     // height: 50px;
-//     // margin-top: 20px;
-//     #masaru{
-//         // height: 20px;
-//         // width: 30%;
-//         margin-top: 10px;
-        
-        
-//         // padding-right: 8rem;
-//         // height: 50px;
-//         li{
-//             list-style: none;
-//             // padding-top: 10px;
-//         }
-//     }
-//     #help{
-//         margin-top: 10px;
-//         // width: 25%;
-//         // padding-right: 8rem;
-//         li{
-//             list-style: none;
-//         }
-//     }
-//     #pra{
-//     margin-top: 10px;
-//     // width: 25%;
-//     li{
-//         list-style: none;
-//     }
-// }
-// }
+
 main{
     margin-top: 2rem;
 }
-.footer05 {
+.footer {
     color: #808080;
     background: #e5e5e5;
-    padding: 30px;
+    // padding: 30px;
+    // margin-left: 20px;
+    width: 100%;
    }
-   .footer05 a {
+   .footer a {
     color: #808080;
     text-decoration: none;
    }
-   .footer05 li a:hover {
+   .footer li a:hover {
     text-decoration: underline;
    }
-   .footer05 .wrap {
-    width: 900px;
+   .footer .wrap {
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
    }
-   .footer05 .wrap h3 {
+   .footer .wrap h3 {
     margin: 0 0 10px 0;
     padding: 0;
     border-bottom: 1px #c4c4c4 solid;
    }
-   .footer05 .wrap p {
+   .footer .wrap p {
     margin: 0;
     padding: 0 0 20px 0;
    }
-   .footer05 .wrap .box {
+   .footer .wrap .box {
     width: 22%;
+    // padding-left: 60px;
+    // padding-right: 50px;
    }
-   .footer05 .wrap .box ul {
+   .footer .wrap .box ul {
     margin: 0;
     padding: 0 0 20px 0;
     list-style: none;
    }
-   .footer05 .wrap .copyright {
+   .footer .wrap .copyright {
     width: 100%;
+    text-align: center;
     padding: 20px 0 0 0;
    }
    
    @media only screen and (max-width: 599px) {
-   .footer05 .wrap {
+   .footer .wrap {
     width: 100%;
-    padding: 0 20px;
+    // margin-left: 100px;
     box-sizing: border-box;
    }
-   .footer05 .wrap h3 {
+   .footer .wrap h3 {
     border: none;
    }
-   .footer05 .wrap .box {
+   .footer .wrap .box {
     width: 100%;
    }
-   .footer05 .wrap .box ul {
+   .footer .wrap .box ul {
     border-top: 1px #c4c4c4 solid;
    }
-   .footer05 .wrap .box ul li a {
+   .footer .wrap .box ul li a {
     display: block;
     padding: 5px 15px;
     border-bottom: 1px #c4c4c4 solid;
