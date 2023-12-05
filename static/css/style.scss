@@ -9,7 +9,10 @@
     // height: 100%;
     min-height: 100vh;
     // overflow: auto; /* コンテンツが画面外にはみ出ないようにする */
- }     
+ } 
+ body::-webkit-scrollbar{
+	display: none;
+}    
 // // }
 header{
     background-color: red;
@@ -158,6 +161,7 @@ nav li{
     text-decoration: none;
 }
 #list {
+    border: coral solid 5px;
     // border: 2px solid #2589d0;
     margin-top: 5rem;
     margin-right: 10rem;
@@ -189,22 +193,72 @@ nav li{
     padding-top: 1rem;
     list-style: none;
 }
+#list h3{
+    text-align: center;
+    background-color: coral;
+    margin-bottom: 10px;
+}
 
 #list li::marker {
     color: #2589d0;
     font-size: 1.1em;
 }
-#manaka{
+#side{
     display: flex;
 }
+#side #list ul{
+    padding: 0;
+    position: relative;
+}
+#side #list ul li{
+    line-height: 1.5;
+    padding: 0.5em 0.5em 0.5em 1.7em;
+    list-style-type: none;
+    // background: -webkit-linear-gradient(top, #whitesmoke 0%, whitesmoke 100%);/*グラデーション*/
+    // background: linear-gradient(to bottom, whitesmoke 0%, #dadada 100%);/*グラデーション*/
+    text-shadow: 1px 1px 1px whitesmoke;/*文字を立体的に*/
+    color: black;
+}
+#side #list ul li:before { 
+    // font-family: "Font Awesome 5 Free";
+    // content: "\f138";
+    // position: absolute;
+    // color: orange; /*アイコン色*/
+}
 
+// #side #list ul li i.fa-solid {
+//     right : 1rem; /*左端からのアイコンまでの距離*/
+
+// }
+#list li{
+    background-color: rgba(229, 229, 229, 0.82);
+}
+#list li.a{
+    // background-color: #e5e5e5;
+    margin-bottom: 10px;
+
+}
+#list li.b{
+    // background-color: #e5e5e5;
+    margin-bottom: 10px;
+
+}
+#list li.c{
+    // background-color: #e5e5e5;
+    margin-bottom: 10px;
+
+}
+#list li i.fa-caret-right {
+    margin-left: 20px; /* 適切な間隔を指定 */
+}
 main{
     margin-top: 2rem;
 }
 .footer {
     color: #808080;
     background: #e5e5e5;
-    // padding: 30px;
+    margin-top: 50px;
+    // padding-top: 10px;
     // margin-left: 20px;
     width: 100%;
    }
@@ -219,7 +273,8 @@ main{
     // width: 100%;
     margin-left: 60px;
     margin-right: 60px;
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     // margin-top: 50px;
     // margin: 0 auto;
     display: flex;
@@ -236,7 +291,8 @@ main{
     padding: 0 0 20px 0;
    }
    .footer .wrap .box {
-    width: 22%;
+    // width: 22%;
+    width: calc(22% - 10px);
     // padding-left: 60px;
     // padding-right: 50px;
    }
@@ -245,33 +301,70 @@ main{
     padding: 0 0 20px 0;
     list-style: none;
    }
-   .footer .wrap .copyright {
-    width: 100%;
-    text-align: center;
-    padding: 20px 0 0 0;
-   }
-   
-   @media only screen and (max-width: 599px) {
-   .footer .wrap {
-    width: 100%;
-    // margin-left: 100px;
-    box-sizing: border-box;
-   }
-   .footer .wrap h3 {
-    border: none;
-   }
-   .footer .wrap .box {
-    width: 100%;
-   }
-   .footer .wrap .box ul {
+   .footer .wrap p.copyright {
+    // width: 100%;
+    // text-align: center;
     border-top: 1px #c4c4c4 solid;
-   }
-   .footer .wrap .box ul li a {
-    display: block;
-    padding: 5px 15px;
-    border-bottom: 1px #c4c4c4 solid;
-   }
-   }
+    margin-top: 50px;
+    padding: 20px 60rem 0 0rem;    
+    // margin-left: 20rem;
+}
+.fa-brands{
+    // width: 22%;
+    padding-bottom: 20px;
+}
+.fa-facebook{
+    font-size: 2.2rem;
+    width: 10%;
+    // padding-left: 20px;
+    padding-right: 20px;
+}
+.fa-twitter{
+    font-size: 2.2rem;
+    width: 10%;
+    // padding-right: 8px;
+    padding-left: 30px;
+}
+.fa-instagram{
+    font-size: 2.2rem;
+    width: 10%;
+    padding-left: 50px;
+
+}
+.footer .wrap p.co{
+    padding: 20px 35rem 0.5rem 4rem;    
+    font-size: 13px;
+    color: black;
+    background-color: #797979;
+    width: 100vw; /* 画面の幅いっぱいにサイズを調整 */
+    margin-left: -60px; /* 左右のマージンを調整 */
+    margin-right: -60px;
+    margin-bottom: -20px
+    
+}
+
+//    @media only screen and (max-width: 599px) {
+//    .footer .wrap {
+//     width: 100%;
+//     // margin-left: 100px;
+//     // padding-top: 30px;
+//     box-sizing: border-box;
+//    }
+//    .footer .wrap h3 {
+//     border: none;
+//    }
+//    .footer .wrap .box {
+//     width: 100%;
+//    }
+//    .footer .wrap .box ul {
+//     border-top: 1px #c4c4c4 solid;
+//    }
+//    .footer .wrap .box ul li a {
+//     display: block;
+//     padding: 5px 15px;
+//     border-bottom: 1px #c4c4c4 solid;
+//    }
+//    }
 
   
 //   .star-1 {
