@@ -462,6 +462,24 @@ header ul {
   padding-left: 500px;
 }
 
+#syo {
+  padding-bottom: 20px;
+}
+
+#syo h2 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+#syo h3 {
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+#syo i {
+  padding: 0 20px;
+}
+
 .kou {
   text-align: center;
   display: block;
@@ -474,6 +492,15 @@ header ul {
   width: 150px;
   height: 50px;
   border: solid black 1px;
+}
+
+.akut h3 {
+  padding-left: 70px;
+  margin-bottom: 10px;
+}
+
+.akut i {
+  padding-left: 2px;
 }
 
 .ar {

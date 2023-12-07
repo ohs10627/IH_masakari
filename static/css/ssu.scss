@@ -479,6 +479,20 @@
     #ff{
         padding-left: 500px;
     }
+    #syo{
+        padding-bottom: 20px;
+        h2{
+            font-size: 30px;
+            margin: 20px 0;
+        }
+        h3{
+            font-size: 15px;
+            margin: 20px 0;
+        }
+        i{
+            padding: 0 20px;
+        }
+    }
     .kou{
         text-align: center;
         display: block;
@@ -491,10 +505,21 @@
             border: solid black 1px;
         }
     }
+    .akut{
+        h3{
+        padding-left: 70px;
+        margin-bottom: 10px;
+        }
+        i{
+            padding-left: 2px;
+        }
+
+    }
     .ar{
         text-align: center;
         display: block;
         display: flex;
+        
         p{
             font-size: 80%;
 			line-height: 50px;
