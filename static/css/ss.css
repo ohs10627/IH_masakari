@@ -458,15 +458,12 @@ header ul {
   display: flex;
 }
 
-#rr {
-  padding-left: 500px;
+#sy {
+  padding-left: 200px;
 }
 
-table {
-  padding-left: 500px;
-}
-
-table tr {
-  padding-left: 500px;
+#sy h3 {
+  padding-top: 5px;
+  padding-bottom: 50px;
 }
 /*# sourceMappingURL=ss.css.map */
